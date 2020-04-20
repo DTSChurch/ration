@@ -51,16 +51,16 @@ module.exports.custom = {
   * (https://app.mailgun.com/app/domains)                                   *
   *                                                                         *
   **************************************************************************/
-   mailgunDomain: 'mg.dtschurch.com',
-   mailgunSecret: 'key-07c0203a531b6f10891df083282e61b8',
+  // mailgunDomain: 'sandboxaa1234fake678.mailgun.org',
+  // mailgunSecret: 'key-fakeb183848139913858e8abd9a3',
   //--------------------------------------------------------------------------
   // /\  Configure these to enable support for automated emails.
   // ||  (Important for password recovery, verification, contact form, etc.)
   //--------------------------------------------------------------------------
 
   // The sender that all outgoing emails will appear to come from.
-  fromEmailAddress: 'info@dtschurch.com',
-  fromName: 'The DTS Team',
+  fromEmailAddress: 'noreply@example.com',
+  fromName: 'The Ration Team',
 
   // Email address for receiving support messages & other correspondences.
   internalEmailAddress: 'support+development@example.com',
